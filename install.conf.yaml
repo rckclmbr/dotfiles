@@ -1,10 +1,10 @@
-- clean: ['~']
+#- clean: ['~']
 
 - link:
-	~/.dotfiles: ''
-	~/.vimrc: vimrc
-	~/.i3 i3/
-	~/.bashrc_shared bashrc_shared
+    ~/.dotfiles: ''
+    ~/.vimrc: vimrc
+    ~/.i3: i3/
+    ~/.bashrc_shared: bashrc_shared
 
--shell:
-	- [git update-submodules: Installing/updating submodules]
+# - shell:
+# 	- [git update-submodules: Installing/updating submodules]
