@@ -152,7 +152,7 @@ bar {
 bindsym $mod+m move workspace to output left
 
 # Setup the lock screen
-exec --no-startup-id xset dpms 130
+exec --no-startup-id xset dpms 130 130 240
 exec --no-startup-id xset s 125
 exec --no-startup-id xautolock -time 5 -locker ~/.dotfiles/i3/lock_screen.sh
 bindsym $mod+Shift+z exec ~/.dotfiles/i3/lock_screen.sh
