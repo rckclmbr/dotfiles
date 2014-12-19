@@ -2,9 +2,9 @@
 
 - link:
     ~/.dotfiles: ''
-    ~/.vimrc: vim/vimrc
+    ~/.bashrc: bash/bashrc
     ~/.i3: i3/
-    ~/.bashrc2: bash/bashrc
+    ~/.vimrc: vim/vimrc
 
 #- shell:
 #    - [git update-submodules: Installing/updating submodules]

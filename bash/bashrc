@@ -1,2 +1,14 @@
+# If not running interactively, don't do anything
+case $- in
+    *i*) ;;
+      *) return;;
+esac
 
 source ~/.dotfiles/functions/_dex
+source ~/.dotfiles/bash/config.sh
+source ~/.dotfiles/bash/aliases.sh
+
+if [[ -a ~/.localrc ]]
+then
+  source ~/.localrc
+fi
