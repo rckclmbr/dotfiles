@@ -1,20 +1,18 @@
-#export TERM=xterm
 
-#VIRTUAL_ENV_DISABLE_PROMPT=1
-DEFAULT_USER=josh
+ZSH=true # Will be overwritten
+source ~/.dotfiles/zsh/ohmyzsh.sh
 
-source ~/.dotfiles/appengine/appengine.sh
-source ~/.dotfiles/aws/aws.sh
-source ~/.dotfiles/go/go.sh
-
-if [ "$(uname -s)" == "Darwin" ]
+if [ "$(uname -s)" = "Darwin" ]
 then
     source ~/.dotfiles/osx/android.sh
     source ~/.dotfiles/osx/locals.sh
     source ~/.dotfiles/homebrew/completion.sh
 fi
 
+source ~/.dotfiles/appengine/appengine.sh
+source ~/.dotfiles/aws/aws.sh
+source ~/.dotfiles/go/go.sh
 source ~/.dotfiles/functions/_dex
-source ~/.dotfiles/zsh/ohmyzsh.sh
+
 
 [[ -a ~/.localrc ]] && source ~/.localrc
