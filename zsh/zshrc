@@ -9,6 +9,7 @@ then
     source ~/.dotfiles/homebrew/completion.sh
 fi
 
+source ~/.dotfiles/python/virtualenvwrapper.inc
 source ~/.dotfiles/appengine/appengine.sh
 source ~/.dotfiles/aws/aws.sh
 source ~/.dotfiles/go/go.sh
