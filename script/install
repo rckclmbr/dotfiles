@@ -1,2 +1,2 @@
-bash ~/.dotfiles/zsh/install.sh
+bash ~/.dotfiles/zsh/install.ubuntu.sh
 bash ~/.dotfiles/python/install.sh
