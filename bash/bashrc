@@ -8,7 +8,4 @@ source ~/.dotfiles/functions/_dex
 source ~/.dotfiles/bash/config.sh
 source ~/.dotfiles/bash/aliases.sh
 
-if [[ -a ~/.localrc ]]
-then
-  source ~/.localrc
-fi
+[[ -a ~/.localrc ]] && source ~/.localrc

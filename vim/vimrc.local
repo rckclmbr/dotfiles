@@ -1,0 +1,5 @@
+colorscheme molokai
+"colorscheme solarized
+:set background=dark
+:set nospell
+:set mouse=
