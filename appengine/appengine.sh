@@ -1,13 +1,13 @@
 
-export PATH=$PATH:~/go_appengine
+export PATH=$PATH:~/vendor/go_appengine
 
-if [[ -d ~/google-cloud-sdk ]];
+if [[ -d ~/vendor/google-cloud-sdk ]];
 then
     if [[ -z "${ZSH+x}" ]];
     then
-        source ~/google-cloud-sdk/path.bash.inc
-        source ~/google-cloud-sdk/completion.bash.inc
+        source ~/vendor/google-cloud-sdk/path.bash.inc
+        source ~/vendor/google-cloud-sdk/completion.bash.inc
     else
-        source ~/google-cloud-sdk/completion.zsh.inc
+        source ~/vendor/google-cloud-sdk/completion.zsh.inc
     fi
 fi
