@@ -20,4 +20,6 @@ source ~/.dotfiles/functions/_dex
 source ~/.dotfiles/bash/config.sh
 source ~/.dotfiles/bash/aliases.sh
 
+export PATH=$PATH:~/bin
+
 [[ -a ~/.localrc ]] && source ~/.localrc

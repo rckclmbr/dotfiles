@@ -15,5 +15,6 @@ source ~/.dotfiles/aws/aws.sh
 source ~/.dotfiles/go/go.sh
 source ~/.dotfiles/functions/_dex
 
+export PATH=$PATH:~/bin
 
 [[ -a ~/.localrc ]] && source ~/.localrc
