@@ -4,7 +4,10 @@
     ~/.dotfiles: ''
     ~/.bashrc: bash/bashrc
     ~/.i3: i3/
-    ~/.vimrc: vim/vimrc
+
+    ~/.vimrc.bundles.local: vim/vimrc.bundles.local
+    ~/.vimrc.local: vim/vimrc.local
 
 #- shell:
 #    - [git update-submodules: Installing/updating submodules]
+#    - ["curl https://j.mp/spf13-vim3 -L -o - | sh": "Installing spf-13"]
