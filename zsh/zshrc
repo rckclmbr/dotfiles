@@ -4,12 +4,12 @@ source ~/.dotfiles/zsh/ohmyzsh.sh
 
 if [ "$(uname -s)" = "Darwin" ]
 then
-    source ~/.dotfiles/osx/android.sh
     source ~/.dotfiles/osx/locals.sh
     source ~/.dotfiles/homebrew/completion.sh
 fi
 
 source ~/.dotfiles/python/virtualenvwrapper.inc
+source ~/.dotfiles/android/path.sh
 source ~/.dotfiles/appengine/appengine.sh
 source ~/.dotfiles/aws/aws.sh
 source ~/.dotfiles/go/go.sh

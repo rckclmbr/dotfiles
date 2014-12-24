@@ -4,6 +4,7 @@
     ~/.dotfiles: ''
     ~/.bashrc: bash/bashrc
     ~/.i3: i3/
+    ~/.i3status.conf: i3/i3status.conf
 
     ~/.vimrc.bundles.local: vim/vimrc.bundles.local
     ~/.vimrc.local: vim/vimrc.local
