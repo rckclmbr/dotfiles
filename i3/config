@@ -152,13 +152,14 @@ bar {
 bindsym $mod+m move workspace to output left
 
 # Setup the lock screen
+exec --no-startup-id xset s noblank
 exec --no-startup-id xset s off
 exec --no-startup-id xset dpms 130 130 240
 exec --no-startup-id xautolock -time 5 -locker ~/.dotfiles/i3/lock_screen.sh
 bindsym $mod+Shift+z exec ~/.dotfiles/i3/lock_screen.sh
 
 # Desktop wallpaper
-exec --no-startup-id xloadimage -fit -onroot -fullscreen /home/josh/Pictures/fallen-leave.jpg
+exec --no-startup-id xloadimage -fit -onroot -fullscreen /home/josh/Pictures/background # symlink to background image
 
 for_window [class="^Spotify$"] floating enable
 for_window [class="^Steam$"] floating enable
