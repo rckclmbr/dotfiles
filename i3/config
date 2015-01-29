@@ -164,3 +164,4 @@ exec --no-startup-id xloadimage -fit -onroot -fullscreen /home/josh/Pictures/bac
 for_window [class="^Spotify$"] floating enable
 for_window [class="^Steam$"] floating enable
 for_window [class="^dota"] floating enable
+for_window [class="^csgo_linux$"] floating enable
