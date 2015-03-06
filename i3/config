@@ -149,6 +149,8 @@ bar {
         status_command i3status
 }
 
+exec --no-startup-id nm-applet
+
 bindsym $mod+m move workspace to output left
 
 # Setup the lock screen

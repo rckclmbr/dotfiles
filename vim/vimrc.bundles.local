@@ -1,6 +1,6 @@
 "Bundle 'veselosky/vim-rst'
 "Bundle 'jnwhiteh/vim-golang'
 UnBundle 'pyflakes'
-UnBundle 'klen/python-mode'
+"UnBundle 'klen/python-mode'
 UnBundle 'Shougo/neocomplcache'
 UnBundle 'neocomplcache'

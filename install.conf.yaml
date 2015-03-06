@@ -7,6 +7,7 @@
     ~/.i3status.conf: i3/i3status.conf
 
     ~/.vimrc.bundles.local: vim/vimrc.bundles.local
+    ~/.vimrc.before.local: vim/vimrc.before.local
     ~/.vimrc.local: vim/vimrc.local
 
     ~/.zshrc: zsh/zshrc

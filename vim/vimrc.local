@@ -3,3 +3,5 @@ colorscheme molokai
 :set background=dark
 :set nospell
 :set mouse=
+
+let g:go_fmt_command = "goimports"
